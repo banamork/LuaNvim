@@ -43,10 +43,8 @@ require("lazy").setup({
         { 'akinsho/toggleterm.nvim', version = "*", config = true }
     },
 
-    { "EdenEast/nightfox.nvim" },
-   
     { 'kdheepak/tabline.nvim' },
-    
+
     { 'neovim/nvim-lspconfig' },
 
     { 'hrsh7th/nvim-cmp' }, {'hrsh7th/cmp-nvim-lsp'}, {'hrsh7th/cmp-buffer'}, {'hrsh7th/cmp-path'},
