@@ -27,7 +27,10 @@ require("lazy").setup({
 
     {'nvim-treesitter/nvim-treesitter'},
 
-    {'lewis6991/gitsigns.nvim'},
+    {
+        'lewis6991/gitsigns.nvim',
+        dependencies = { 'nvim-tree/nvim-web-devicons' }
+    },
 
     {
         'windwp/nvim-autopairs',
@@ -44,6 +47,8 @@ require("lazy").setup({
     },
 
     { 'kdheepak/tabline.nvim' },
+
+	{ 'Abstract-IDE/Abstract-cs' },
 
     { 'neovim/nvim-lspconfig' },
 

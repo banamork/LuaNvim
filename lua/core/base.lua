@@ -1,7 +1,7 @@
 vim.scriptencoding = "utf-8"
 vim.opt.encoding = "utf-8"
 
- --vim.cmd("colorscheme ")
+vim.cmd[[colorscheme abscs]]
 
 vim.opt.number = true
 
