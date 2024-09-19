@@ -48,7 +48,7 @@ require("lazy").setup({
 
     { 'kdheepak/tabline.nvim' },
 
-	{ 'Abstract-IDE/Abstract-cs' },
+    { 'maxmx03/solarized.nvim' },
 
     { 'neovim/nvim-lspconfig' },
 
